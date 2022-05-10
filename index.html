@@ -15,20 +15,28 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
+      <div class="weather-app-wrapper">
+       <div class="weather-app">
+         <div class="overview">
         <h1>Dallas, TX</h1>
         <ul>
           <li>Thursday 09:00</li>
           <li>Clear</li>
         </ul>
+      </div>
         <div class="row">
           <div class="col-6">
+            <div class="clearfix weather-temperature">
             <img
               src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
               alt="Clear"
+              class="float-left"
             />
-            68℃ | ℉
+            <div class="float-left">
+              <strong>68</strong><span class="units">℃ | <a href="#">℉</a></span>
+            </div>
           </div>
+        </div>
           <div class="col-6">
             <ul>
               <li>Precipitation: 0%</li>
@@ -37,16 +45,16 @@
             </ul>
           </div>
         </div>
-        <small>
-          <a
-            href="https://github.com/Cjenae7/vanilla-weather-app"
-            target="_blank"
-            >Open-source code</a
-          >
-          by C.Sneed
-        </small>
       </div>
     </div>
+      <small>
+        <a href="https://github.com/Cjenae7/vanilla-weather-app" target="_blank"
+          >Open-source code</a
+        >
+        by C.Sneed
+      </small>
+    </div>
+  </div>
     <script src="src/app.js"></script>
   </body>
 </html>
