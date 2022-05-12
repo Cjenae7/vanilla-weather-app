@@ -37,6 +37,8 @@ function displayTemperature(response) {
 }
 
 let apiKey = "c50b5a754f93d07aef8211ca2b9025a4";
+// let city = "Dallas";
+//let apiURL = `https://api.openweathermap.org/data/2.5/weather?q={city}&appid=${apiKey}&units=metric`;
 let apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=${apiKey}&units=metric`;
 
-axios.get(apiURL).then(displayTemperature);
+https: axios.get(apiURL).then(displayTemperature);
