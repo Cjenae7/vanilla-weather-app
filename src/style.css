@@ -35,7 +35,9 @@ li:first-letter {
   max-width: 600px;
   margin: 30px auto;
 }
-
+.source{
+  text-align: center;
+}
 .weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
@@ -77,6 +79,34 @@ li:first-letter {
 }
 .temp {
   font-size: 18px;
+}
+
+
+
+
+
+/*Week 8 Video 3 */
+
+.weather-forcast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+.weather-forcast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min{
+opacity:0.5;
+}
+
+.weather-forcast-temperatures {
+font-size:13px;
+
+}
+.weather-forcast.row{
+  text-align: center;
 }
 /*h3 {
   color: rgb(255, 142, 101);
